@@ -52,12 +52,13 @@
 }
 
 
-.custom-outline-button {
-  color: #8064A2; 
+.signin{
   border: 1px solid #8064A2;
+  border-radius: 8px;
+  color: #8064A2;
+  padding: 2px 5px;
+  font-size: 14px;
+  margin-top: 9px;
 }
 
-.custom-outline-button:hover {
-  background-color: #8064A2;
-  color: #8064A2; 
-}
+

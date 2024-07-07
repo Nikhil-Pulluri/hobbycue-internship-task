@@ -80,9 +80,8 @@ function Navbar() {
 
 
             <li>
-            <button type="button" class="btn btn-outline-secondary custom-outline-button">Sign in</button>
+            <button type="button" className="signin" >Sign in</button>
             </li>
-
 
           </ul>
 
