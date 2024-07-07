@@ -1,0 +1,63 @@
+#search_bar{
+  width: 300px;
+  height: 40px;
+  margin-left: 34.74px;
+  margin-top: 12px;
+}
+
+#search_icon{
+  height: 12.01px;
+  width: 12.01px;
+}
+
+#basic-addon2{
+  background-color: #8064A2;
+}
+
+.container-fluid{
+  background-color: white;
+}
+
+@media (max-width: 787px) {
+  #search_bar {
+    display: none;
+  }
+}
+
+.dropdown-menu{
+  width: 220px;
+}
+
+.dropdown-item{
+  font-size: 14px;
+}
+
+.badges{
+  height: 24px;
+  width: 24px;
+}
+
+.badge-container{
+  display: flex;
+  gap: 24px;
+  margin-top: 9px;
+}
+
+#navbarSupportedContent{
+  margin-left: 210px;
+}
+
+#nav-sub{
+  gap: 24px
+}
+
+
+.custom-outline-button {
+  color: #8064A2; 
+  border: 1px solid #8064A2;
+}
+
+.custom-outline-button:hover {
+  background-color: #8064A2;
+  color: #8064A2; 
+}
