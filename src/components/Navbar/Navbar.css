@@ -44,7 +44,7 @@
 }
 
 #navbarSupportedContent{
-  margin-left: 210px;
+  margin-left: 90px;
 }
 
 #nav-sub{
@@ -58,7 +58,15 @@
   color: #8064A2;
   padding: 2px 5px;
   font-size: 14px;
-  margin-top: 9px;
+  margin-top: 3px;
+  padding: 10px 20px;
+  background-color: transparent;
 }
 
+.container-fluid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 

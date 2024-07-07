@@ -1,0 +1,38 @@
+.button{
+  border: 1px solid #8064A2;
+  border-radius: 8px;
+  color: #8064A2;
+  padding: 2px 5px;
+  font-size: 14px;
+  margin-top: 9px;
+  padding: 10px 20px;
+  width: 122px;
+  background-color: transparent;
+}
+
+.card{
+  padding: 20px;
+  min-height: 268.56px;
+}
+
+
+.card-text {
+  text-align: left; /* Center-align for smaller screens */
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .card-text {
+    text-align: center; /* Center-align for smaller screens */
+    align-items: center;
+  }
+
+  .image-title {
+    justify-content: center; /* Center-align header items */
+    flex-direction: column; /* Stack header items vertically */
+  }
+
+  .card-image {
+    margin: 0 0 10px 0; /* Remove right margin, add bottom margin */
+  }
+}
