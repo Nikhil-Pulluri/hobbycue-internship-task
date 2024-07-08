@@ -1,0 +1,32 @@
+.testouter{
+  padding: 100px;
+  background-color: white;
+}
+
+.img-fluid-custom {
+  height: auto;
+}
+
+
+#pc {
+  display: block;
+}
+
+#mobile{
+  display: none;
+}
+
+@media (max-width: 400px) {
+#pc{
+    display: none;
+  }
+
+#mobile{
+    display: block;
+  }
+.testouter{
+    padding: 10px;
+}
+
+}
+
