@@ -4,6 +4,8 @@ import Features from './components/Features/Features'
 import Add from './components/Add/Add'
 import Testimonials from './components/Testimonials/Testimonials'
 import './App.css'
+import EndBanner from './components/EndBanner/EndBanner'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Features/>
       <Add/>
       <Testimonials/>
+      <EndBanner/>
+      <Footer/>
     </>
   )
 }
