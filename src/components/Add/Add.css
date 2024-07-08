@@ -2,3 +2,14 @@
   background-color: #F7FDFF;
   padding: 100px;
 }
+
+
+@media (max-width: 400px) {
+
+  .outer{
+    padding: 24px;
+  }
+
+}
+
+

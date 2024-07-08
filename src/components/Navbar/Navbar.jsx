@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "./assets/logo.jpg"
+import logo from "./assets/logo.png"
 import search from "./assets/search_icon.png"
 import explore from "./assets/Explore.png"
 import star from "./assets/Hobbies.png"
@@ -11,10 +11,10 @@ import './Navbar.css'
 function Navbar() {
   return (
 
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary text-center">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img style={{height: "60px", marginLeft: "97px", width: "293.26px"}} src={logo}/>
+            <img id="logo" src={logo}/>
           </a>
           <div className="input-group mb-3" id="search_bar">
             <input  type="text" className="form-control" placeholder="Search here..." aria-label="Recipient's username" aria-describedby="basic-addon2"/>

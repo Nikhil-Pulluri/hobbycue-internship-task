@@ -70,3 +70,18 @@
   padding: 0 20px;
 }
 
+#logo{
+  margin-left: 197px;
+  width: 293.26px;
+  height: 60px;
+}
+
+
+@media (max-width: 400px) {
+  #logo{
+    margin-left: 0px;
+    width: 156.4px;
+    height: 32px;
+  }
+}
+

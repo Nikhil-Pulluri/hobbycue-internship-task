@@ -1,5 +1,6 @@
 import React from 'react'
 import add from './assets/Add.png'
+import AddNew from './AddNew'
 
 function AddCard() {
   return (
@@ -10,7 +11,7 @@ function AddCard() {
             <h5 style={{marginBottom: "0px"}} className="card-title">Add your own</h5>
           </div>
           <p className="card-text">Are you a teacher or expert?  Do you sell or rent out equipment, venue or event tickets?  Or, you know someone who should be on hobbycue?  Go ahead and Add your Own page</p>
-          <button href="#" className="button">Add new</button>
+          <AddNew/>
       </div>
     </div>
   )

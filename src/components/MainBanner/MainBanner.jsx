@@ -50,7 +50,7 @@ function MainBanner() {
 
 
   </div>
-  <div style={{marginTop: "90px"}} className="row">
+  <div style={{marginTop: "20px"}} className="row">
     <div className="col-xl-4"><img src={pic1} alt="pic1"  /></div>
     <div className="col-xl-4"><img src={pic2} alt="pic2"  /></div>
   </div>
