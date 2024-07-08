@@ -1,20 +1,27 @@
-#container{
-  width: 1440px;
-  height: auto;
+/* #container{
   background-color: #F7F5F9;
   align-items: center;
   padding: 100px;
   padding-bottom: 0px;
+  margin: 0px;
+  margin-right: 0px;
 }
 
-
-
-
-.outer{
-  display: flex;
-  justify-content: center;
-}
 
 .picture-container{
   margin-top: 80px;
+} */
+
+/* 
+#container {
+  background-color: #F7F5F9;
+  align-items: center;
+  padding: 100px;
+  padding-bottom: 0px;
+  margin: 0;
 }
+
+.picture-container {
+  margin-top: 80px;
+} */
+
